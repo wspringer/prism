@@ -95,7 +95,7 @@
 				lookbehind: true,
 				inside: {
 					'name': {
-						pattern: /^\+\w+/,
+						pattern: /^\+[\w\-]+/,
 						alias: 'function'
 					},
 					'rest': Prism.languages.javascript
